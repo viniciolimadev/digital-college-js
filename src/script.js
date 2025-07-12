@@ -1,20 +1,8 @@
-var arr = [
-    [1,2,3],
-    ['Marcos','Vinicio','Lima']
-    [true,false]
-];
 
-console.log(arr[1][1]);
+// if (5 < 2) {
+//     console.log("Verdadeiro.");
+// }
 
-var arr2 = [
-    person = {
-        name: 'Vinicio',
-        age: 22
-    },
-    person2 = {
-        name: "Marcos",
-        age: 22
-    }
-];
+var licensed = false;
 
-console.log(arr[1].name);
+!licensed && console.log("Precisa tirar a carta de habilitação.");
